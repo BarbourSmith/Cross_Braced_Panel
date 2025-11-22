@@ -1,13 +1,166 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-102",
-    "name": "Cross_Braced_Panel",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Unitless",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-102",
+  "name": "Cross_Braced_Panel",
+  "ioValues": [
+    {
+      "name": "X",
+      "ioValue": 100,
+      "currentEquation": "100"
+    },
+    {
+      "name": "Y",
+      "ioValue": 100,
+      "currentEquation": "100"
+    },
+    {
+      "name": "Wall Thickness",
+      "ioValue": 10,
+      "currentEquation": "10"
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-103"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.35383597883597884,
+      "y": 0.3955431754874652,
+      "uniqueID": "id-109",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10,
+          "currentEquation": "1"
+        },
+        {
+          "name": "y length",
+          "ioValue": 10,
+          "currentEquation": "1"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5343915343915343,
+      "y": 0.7827298050139275,
+      "uniqueID": "id-113",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 50.5
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.3203342618384401,
+      "uniqueID": "id-119",
+      "name": "X",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.6462395543175488,
+      "uniqueID": "id-122",
+      "name": "Y",
+      "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.18584656084656084,
+      "y": 0.41225626740947074,
+      "uniqueID": "id-125",
+      "name": "x/2+W/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 100
+        },
+        {
+          "name": "W",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x/2+W/2"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.8635097493036212,
+      "uniqueID": "id-135",
+      "name": "Wall Thickness",
+      "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.24338624338624337,
+      "y": 0.8384401114206128,
+      "uniqueID": "id-139",
+      "name": "x/2+W/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 100
+        },
+        {
+          "name": "W",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x/2+W/2"
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-109",
+      "ap2ID": "id-103"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-109",
+      "ap2ID": "id-113"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-119",
+      "ap2ID": "id-125"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-125",
+      "ap2ID": "id-113"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-135",
+      "ap2ID": "id-109"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-135",
+      "ap2ID": "id-109"
+    }
+  ],
+  "unitsKey": "Unitless",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
