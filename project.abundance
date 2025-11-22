@@ -19,6 +19,11 @@
       "name": "Wall Thickness",
       "ioValue": 10,
       "currentEquation": "10"
+    },
+    {
+      "name": "Height",
+      "ioValue": 5,
+      "currentEquation": "5"
     }
   ],
   "topLevel": true,
@@ -78,7 +83,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.6462395543175488,
+      "y": 0.5543175487465182,
       "uniqueID": "id-122",
       "name": "Y",
       "type": "number"
@@ -104,7 +109,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.8635097493036212,
+      "y": 0.9025069637883008,
       "uniqueID": "id-135",
       "name": "Wall Thickness",
       "type": "number"
@@ -205,8 +210,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.25727513227513227,
-      "y": 0.7688022284122563,
+      "x": 0.255952380952381,
+      "y": 0.7604456824512534,
       "uniqueID": "id-164",
       "ioValues": [
         {
@@ -225,8 +230,8 @@
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.3584656084656085,
-      "y": 0.7520891364902507,
+      "x": 0.4212962962962963,
+      "y": 0.9136490250696379,
       "uniqueID": "id-170",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -292,8 +297,8 @@
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.36706349206349204,
-      "y": 0.4874651810584958,
+      "x": 0.4292328042328042,
+      "y": 0.6295264623955432,
       "uniqueID": "id-175",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -356,6 +361,551 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "ShrinkWrap",
+      "x": 0.42526455026455023,
+      "y": 0.29526462395543174,
+      "uniqueID": "id-180",
+      "name": "Shrink Wrap",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "move-rectangle-10-10-55-55-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-rectangle-10-10--55-55-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "ShrinkWrap",
+      "x": 0.38888888888888884,
+      "y": 0.7743732590529249,
+      "uniqueID": "id-185",
+      "name": "Shrink Wrap",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "move-rectangle-10-10-55-55-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-rectangle-10-10--55--55-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "ShrinkWrap",
+      "x": 0.39351851851851855,
+      "y": 0.4596100278551532,
+      "uniqueID": "id-189",
+      "name": "Shrink Wrap",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "move-rectangle-10-10--55--55-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-rectangle-10-10--55-55-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15877437325905294,
+      "uniqueID": "id-203",
+      "name": "Height",
+      "type": "number"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.6382275132275131,
+      "y": 0.1977715877437326,
+      "uniqueID": "id-206",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 4,
+          "currentEquation": "4"
+        },
+        {
+          "name": "Extrusion",
+          "ioValue": 1
+        },
+        {
+          "name": "Height",
+          "ioValue": 1
+        }
+      ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.7566137566137566,
+      "y": 0.4651810584958217,
+      "uniqueID": "id-212",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "extrude-shrinkWrap-fuse-move-rectangle-10-10--55-55-0-move-rectangle-10-10-55-55-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+            "dimension": "3D",
+            "tags": [],
+            "color": "#aad7f2",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "bom": [
+              []
+            ]
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "extrude-shrinkWrap-fuse-move-rectangle-10-10--55--55-0-move-rectangle-10-10--55-55-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+            "dimension": "3D",
+            "tags": [],
+            "color": "#aad7f2",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "bom": [
+              []
+            ]
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": {
+            "geometry": "extrude-shrinkWrap-fuse-move-rectangle-10-10--55-55-0-move-rectangle-10-10-55--55-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+            "dimension": "3D",
+            "tags": [],
+            "color": "#aad7f2",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "bom": [
+              []
+            ]
+          }
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": {
+            "geometry": "extrude-shrinkWrap-fuse-move-rectangle-10-10--55--55-0-move-rectangle-10-10-55-55-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+            "dimension": "3D",
+            "tags": [],
+            "color": "#aad7f2",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "bom": [
+              []
+            ]
+          }
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": {
+            "geometry": "extrude-shrinkWrap-fuse-move-rectangle-10-10--55--55-0-move-rectangle-10-10-55--55-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+            "dimension": "3D",
+            "tags": [],
+            "color": "#aad7f2",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "bom": [
+              []
+            ]
+          }
+        },
+        {
+          "name": "Shape 6",
+          "ioValue": {
+            "geometry": "extrude-shrinkWrap-fuse-move-rectangle-10-10-55--55-0-move-rectangle-10-10-55-55-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+            "dimension": "3D",
+            "tags": [],
+            "color": "#aad7f2",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "bom": [
+              []
+            ]
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5667989417989419,
+      "y": 0.34818941504178275,
+      "uniqueID": "id-216",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 4,
+          "currentEquation": "4"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.6031746031746031,
+      "y": 0.5097493036211699,
+      "uniqueID": "id-221",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 4,
+          "currentEquation": "4"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5138888888888888,
+      "y": 0.6991643454038997,
+      "uniqueID": "id-226",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 4,
+          "currentEquation": "4"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.583994708994709,
+      "y": 0.871866295264624,
+      "uniqueID": "id-231",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 4,
+          "currentEquation": "4"
+        }
+      ]
+    },
+    {
+      "atomType": "ShrinkWrap",
+      "x": 0.3835978835978836,
+      "y": 0.1309192200557103,
+      "uniqueID": "id-236",
+      "name": "Shrink Wrap",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "move-rectangle-10-10-55--55-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-rectangle-10-10-55-55-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5145502645502645,
+      "y": 0.13370473537604458,
+      "uniqueID": "id-241",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 4,
+          "currentEquation": "4"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -378,6 +928,21 @@
       "ap2Name": "geometry",
       "ap1ID": "id-109",
       "ap2ID": "id-164"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-113",
+      "ap2ID": "id-180"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-113",
+      "ap2ID": "id-185"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-113",
+      "ap2ID": "id-236"
     },
     {
       "ap2Name": "x",
@@ -460,6 +1025,11 @@
       "ap2ID": "id-175"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-144",
+      "ap2ID": "id-236"
+    },
+    {
       "ap2Name": "xDist",
       "ap1ID": "id-150",
       "ap2ID": "id-154"
@@ -475,6 +1045,16 @@
       "ap2ID": "id-175"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-154",
+      "ap2ID": "id-180"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-154",
+      "ap2ID": "id-189"
+    },
+    {
       "ap2Name": "yDist",
       "ap1ID": "id-160",
       "ap2ID": "id-144"
@@ -488,6 +1068,81 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-164",
       "ap2ID": "id-170"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-164",
+      "ap2ID": "id-185"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-164",
+      "ap2ID": "id-189"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-170",
+      "ap2ID": "id-231"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-175",
+      "ap2ID": "id-221"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-180",
+      "ap2ID": "id-206"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-185",
+      "ap2ID": "id-226"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-189",
+      "ap2ID": "id-216"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-206",
+      "ap2ID": "id-212"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-212",
+      "ap2ID": "id-103"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-216",
+      "ap2ID": "id-212"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-221",
+      "ap2ID": "id-212"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-226",
+      "ap2ID": "id-212"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-231",
+      "ap2ID": "id-212"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-236",
+      "ap2ID": "id-241"
+    },
+    {
+      "ap2Name": "Shape 6",
+      "ap1ID": "id-241",
+      "ap2ID": "id-212"
     }
   ],
   "unitsKey": "Unitless",
